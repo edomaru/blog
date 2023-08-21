@@ -1,6 +1,4 @@
-@extends('app-layout')
-
-@section('content')
+<x-app-layout>
     @if ($posts->count())
         <ul class="mt-10 space-y-10">
             @foreach ($posts as $post)
@@ -16,4 +14,4 @@
             @endforeach
         </ul>
     @endif
-@endsection
+</x-app-layout>

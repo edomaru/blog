@@ -15,7 +15,7 @@
         My Personal Blog
       </h1>
 
-      @yield('content')
+      {{ $slot }}
   </div>
 </body>
 </html>
